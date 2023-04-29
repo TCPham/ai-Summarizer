@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { logo } from '../assets';
 
 const Hero = () => {
@@ -8,7 +10,7 @@ const Hero = () => {
 
         <button 
         type='button'
-        onClick={() => window.open('https://github.com/ThienPham')}
+        onClick={() => window.open('https://github.com/ThienPham', "_blank")}
         className='black_btn'
         >
           Github
@@ -27,7 +29,7 @@ const Hero = () => {
         that transforms lengthy articles into short articles into clear and concise summaries.
       </h2>
     </header>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
